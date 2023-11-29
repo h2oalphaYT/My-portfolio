@@ -1,15 +1,34 @@
 
-import React from "react";
+import React , {useEffect} from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const titleElement = document.querySelector(`.${styles.title}`);
+      titleElement.classList.remove(styles.typingAnimation);
+
+      // Trigger reflow to restart the animation
+      void titleElement.offsetWidth;
+
+      titleElement.classList.add(styles.typingAnimation);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const cvUrl =  'http://localhost:5173/public/MY_CV.pdf.pdf';
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Chanuka Devin</h1>
+
+      <h1 className={`${styles.title} ${styles.typingAnimation}`}>Hi, I'm Chanuka Devin</h1>
         <p className={styles.description}>
           I'm a full-stack developer with 1 years of experience using React and
           NodeJS. Reach out if you'd like to learn more!
