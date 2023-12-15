@@ -7,8 +7,8 @@
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+
+
 }
 
 .content {
@@ -17,6 +17,11 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  margin-left: 10%;
+ 
+
+
+
 }
 
 .title {
@@ -26,15 +31,15 @@
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 0.925) 70%,
+    rgba(203, 29, 29, 0) 120%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .description {
-  font-size: 30px;
+  font-size: 28px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -75,7 +80,7 @@
 .heroImg {
   width: 50%;
   z-index: 1;
-
+  margin-right: 100px;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -151,3 +156,5 @@
     typing 3.5s steps(40, end),
     blink .75s step-end infinite;
 }
+
+
