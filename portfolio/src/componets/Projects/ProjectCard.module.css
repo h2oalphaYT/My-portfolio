@@ -7,11 +7,35 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 445px;
+  min-width: 345px;
+  max-height: 650px;
+  min-height: 650px;
+  margin: 10px;
+  justify-content: space-between;
+
+ 
+}
+
+.projectEnter {
+  animation: projectEnter 1s forwards;
+}
+
+@keyframes projectEnter {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .image {
   margin-bottom: 26px;
+  width: 400px;
+  height: 255px;
 }
 
 .title {
@@ -23,7 +47,13 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  max-height: 3000px; /* Adjust this value based on your layout */
+  overflow: hidden; /* Hide overflow */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines you want to display */
+  -webkit-box-orient: vertical;
 }
+
 
 .skills {
   width: 100%;
@@ -46,6 +76,7 @@
 .links {
   width: 100%;
   margin-top: 26px;
+  margin: 10px;
   display: flex;
   justify-content: space-around;
 }
