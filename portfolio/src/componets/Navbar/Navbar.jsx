@@ -6,8 +6,10 @@ import { getImageUrl } from "../../utils";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const backgroundImageUrl = getImageUrl("hero/stars.png");
+
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.navbar} style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
       <a className={styles.title} href="/">
         Portfolio
       </a>
