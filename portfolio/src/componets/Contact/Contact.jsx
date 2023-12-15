@@ -4,8 +4,11 @@ import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
+
+  const backgroundImageUrl = getImageUrl("hero/stars.png");
+  
   return (
-    <footer id="contact" className={styles.container}>
+    <footer id="contact" className={styles.container} style={{ backgroundImage: `url(${backgroundImageUrl})` , position:""} }>
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
