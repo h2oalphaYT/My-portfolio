@@ -1,17 +1,25 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "E-Net Education (Online Examination System)",
+      "imageSrc": "projects/E-net.png",
+      "description": "This project is a web-based application designed tofacilitate online exams. Developed using Java forbackend processing, HTML for structuring the webcontent, and CSS for styling, it offers a seamlessand user-friendly platform for conducting varioustypes of exams online. This system simplifies theexamination process, making it more accessibl",
+      "skills": ["HTML", "CSS","JS", "BootStrap" , "JAVA(MVC)" , "MySQL(DB)"],
+      "demo": "https://github.com/h2oalphaYT/E-Net-Education",
+      "source": "https://github.com/h2oalphaYT/E-Net-Education"
     },
     {
       "title": "Project B",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project C",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
