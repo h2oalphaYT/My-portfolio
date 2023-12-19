@@ -1,34 +1,34 @@
 [
     {
-      "title": "E-Net Education (Online Examination System)",
+      "title": "E-Net Education",
       "imageSrc": "projects/E-net.png",
-      "description": "This project is a web-based application designed tofacilitate online exams. Developed using Java forbackend processing, HTML for structuring the webcontent, and CSS for styling, it offers a seamlessand user-friendly platform for conducting varioustypes of exams online. This system simplifies theexamination process, making it more accessibl",
-      "skills": ["HTML", "CSS","JS", "BootStrap" , "JAVA(MVC)" , "MySQL(DB)"],
+      "description": "This project is a web-based application designed to facilitate online exams. Developed using Java forbackend processing, HTML for structuring the webcontent, and CSS for styling, it offers a seamlessand user-friendly platform for conducting varioustypes of exams online. This system simplifies theexamination process, making it more accessibl",
+      "skills": ["HTML","JS","BootStrap","JAVA","MySQL(DB)"],
       "demo": "https://github.com/h2oalphaYT/E-Net-Education",
       "source": "https://github.com/h2oalphaYT/E-Net-Education"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Construction Management System",
+      "imageSrc": "projects/construction.png",
+      "description": "This project is a digital platform that facilitatesefficient planning, coordination and monitoringof construction projects. This also encompassesfeatures as scheduling, budgeting, resourcealocaion and communication tools to enhancecollaborations among stakeholders.",
+      "skills": ["HTML", "CSS", "JS" , "PHP" , "MySQL(DB)"],
+      "demo": "https://github.com/h2oalphaYT/Construction-Meanagemant-System",
+      "source": "https://github.com/h2oalphaYT/Construction-Meanagemant-System"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Vehicle-Spare-Parts Inventory Management System",
+      "imageSrc": "projects/vehicle.jpg",
+      "description": "This project offers real time tracking andorganization of automotive components.It also Client base Application This enables the business toefficiently manage stocklevels, track inventory movements and offer betterservice to customers. Also, customers canorderitems easily searching through the catalog.",
+      "skills": ["MERN Stack","Chart JS","Bootstrap","MONGODB"],
+      "demo": "https://github.com/ITP-Project-2023-Vehicle-spare-parts/Vehicle-spare-parts-inventory-management-system",
+      "source": "https://github.com/ITP-Project-2023-Vehicle-spare-parts/Vehicle-spare-parts-inventory-management-system"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "AT-Digital FrontEnd",
+      "imageSrc": "projects/At.png",
+      "description": "This is a project made to learn Resposive React App.",
+      "skills": ["React","CSS" , "Bootstrap"],
+      "demo": "https://at-digital-project-chanukadevin329.netlify.app",
+      "source": "https://github.com/h2oalphaYT/Careers-AT-Digital"
     }
   ]

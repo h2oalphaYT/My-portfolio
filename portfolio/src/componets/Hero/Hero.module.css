@@ -27,11 +27,10 @@
 .title {
   font-size: 72px;
   font-weight: 900;
-  margin-bottom: 33px;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0.925) 70%,
+    rgb(0, 221, 255) 70%,
     rgba(203, 29, 29, 0) 120%
   );
   -webkit-text-fill-color: transparent;
@@ -39,9 +38,9 @@
 }
 
 .description {
-  font-size: 28px;
+  font-size: 25px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  margin-bottom: 50px;
 }
 
 .contactBtn {
@@ -53,7 +52,15 @@
   font-weight: 600;
   margin: 10px;
   padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px 0 rgb(2, 2, 255);
+}
+
+.contactBtn:hover {
+  background-color:var(--color-primary);
+  border-radius: 764px;
+  background: rgba(0, 0, 0, 0.7);
+  filter: blur(5);
+  z-index: 0;
 }
 
 .downloadBtn {
@@ -65,7 +72,7 @@
   font-weight: 600;
   margin: 10px;
   padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px 0 rgb(2, 2, 255);
 }
 
 .downloadBtn:hover{
@@ -82,7 +89,7 @@
   z-index: 1;
   margin-right: 100px;
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -126,15 +133,32 @@
   filter: blur(100px);
   z-index: 0;
 }
+.Button {
+  margin: 10px;
+  align-items: first baseline;
+  justify-content: stretch;
+}
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .content {
     align-items: center;
+    flex-direction: column;
+    gap: 34px;
+    width: 100%;
   }
+  .Button {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    width: 500px;
+  }
+
 }
 
 

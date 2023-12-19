@@ -26,5 +26,20 @@
     {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Java",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "BootStrap",
+      "imageSrc": "skills/bootstrp.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/SQL.png"
     }
+
+   
+    
   ]
