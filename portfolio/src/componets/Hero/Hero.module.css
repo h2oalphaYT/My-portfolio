@@ -158,6 +158,11 @@
     display: flex;
     width: 500px;
   }
+  .heroImg{
+    align-items:center ;
+    margin: 0;
+
+  }
 
 }
 

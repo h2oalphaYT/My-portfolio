@@ -38,6 +38,13 @@
   height: 255px;
 }
 
+@media screen and (max-width: 830px) {
+  .image {
+    width: 100%;
+    align-items: center;
+  }
+}
+
 .title {
   font-size: 25px;
   font-weight: 700;
