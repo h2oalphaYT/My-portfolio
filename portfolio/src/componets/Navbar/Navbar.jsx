@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar} style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
       <a className={styles.title} href="/">
-       Chanuka Devin
+       Chanuka Dev
       </a>
       <div className={styles.menu}>
         <img
