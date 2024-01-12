@@ -27,7 +27,7 @@ export const Hero = () => {
     };
   }, []);
 
-  const cvUrl =  'dist/My_CV.pdf';
+  const cvUrl =  'My_CV.pdf';
   const backgroundImageUrl = getImageUrl("hero/stars.png");
 
 
