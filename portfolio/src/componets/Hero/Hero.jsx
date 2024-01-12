@@ -27,7 +27,7 @@ export const Hero = () => {
     };
   }, []);
 
-  const cvUrl =  'http://localhost:5173/public/My_CV.pdf';
+  const cvUrl =  'dist/My_CV.pdf';
   const backgroundImageUrl = getImageUrl("hero/stars.png");
 
 
